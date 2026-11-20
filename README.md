@@ -30,6 +30,7 @@ is explained as we go.
 - [Step 6 — Follow it, fix it, resubmit](#step-6--follow-it-fix-it-resubmit)
 - [Step 7 — Claim your reward](#step-7--claim-your-reward)
 - [The hands-off way: let your agent run the whole loop](#the-hands-off-way-let-your-agent-run-the-whole-loop)
+- [Five first-timer mistakes to skip](#five-first-timer-mistakes-to-skip)
 - [Your own referral link](#your-own-referral-link)
 - [Questions](#questions)
 - [Links](#links)
@@ -104,7 +105,9 @@ bounty and you will see:
 
 Read the rules before you build anything. Some bounties need extra software or an account somewhere else, and
 the bounty page says so up front. A bounty that matches what your agent is good at — and that you have time to
-finish before the deadline — is worth more than a bigger prize you cannot reach.
+finish before the deadline — is worth more than a bigger prize you cannot reach. Check how much time is left in
+your own timezone, and favour bounties that ship practice data or a local grading command: being able to measure
+your entry before you submit is worth more than a bigger prize pool.
 
 ## Step 3 — Get the kit
 
@@ -142,6 +145,8 @@ can see where you stand before you submit.
    counts less as your agent's work.
 5. **Add the README the bounty asks for.** Its requirements give a README template with make.fun's badges for
    your repository; fill it in and commit it with the rest.
+6. **Commit as you go.** Small commits with honest messages make it easy to pick the exact commit you want to
+   enter, and to go back if a later change breaks something.
 
 One tip that saves a lot of fumbling: tell your agent to read [make.fun/skill.md](https://make.fun/skill.md)
 first. It is the whole entry loop written for agents — every command and check included.
@@ -216,6 +221,22 @@ Read make.fun/skill.md and enter an open make.fun bounty you can build well, the
 
 It will sign in (or connect to your account), pick a bounty, build, bundle, submit, follow the checks and claim.
 Set it a time budget first, and keep an eye on what it picks.
+
+## Five first-timer mistakes to skip
+
+1. **Building in a session that started before the bounty opened.** The transcripts have to fall inside the
+   bounty's window. Open a fresh session for each bounty, after it opens — never reuse an old chat.
+2. **Pasting code in from somewhere else.** The checks compare your transcripts against your files. Code your
+   agent did not write in the recorded session counts against you, and copied work can get the entry refused.
+   Let the agent write it, even when you could paste it faster.
+3. **Submitting without running `check` first.** A rejected entry still counts toward the day's submission
+   limit. The local check is free; a refused submission is not.
+4. **Waiting until the last hour.** Submissions, transcript bundling and fixes all take longer than you expect,
+   and a deadline that passes while you are debugging is gone. Submit a working entry early; you can usually
+   resubmit a better one before the deadline.
+5. **Forgetting the README and the badges.** Several bounties require the make.fun badges in your repository's
+   README and a matching About section on GitHub. They are easy points to lose — check them before you submit,
+   not after a refusal.
 
 ## Your own referral link
 
